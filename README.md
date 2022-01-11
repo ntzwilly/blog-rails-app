@@ -1,24 +1,43 @@
-# README
+# Ruby on Rails blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> setup and controllers
 
-Things you may want to cover:
+![Screenshot-routes](https://user-images.githubusercontent.com/9049260/148968131-9c38233a-f0ce-491e-a002-eb533b6018f7.png)
 
-* Ruby version
+## Getting Started
 
-* System dependencies
+To get a local copy up and running follow these simple example steps.
 
-* Configuration
+## Prerequisites
+  - Ruby
+  - Rails
+  - PostgreSQL
 
-* Database creation
+## Setup
 
-* Database initialization
+- Make sure you have Ruby IRB installed on your computer
+- Clone or download this repo on your machine
+- Enter project directory
+## Install
 
-* How to run the test suite
+bundle install
+## Author
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Ntazama Willy**
 
-* Deployment instructions
+- GitHub: [@ntzwilly](https://github.com/ntzwilly)
+- LinkedIn: [@ntazamawilly](https://linkedin.com/in/ntazama-willy-b676b7aa)
 
-* ...
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
