@@ -1,8 +1,6 @@
 # Ruby on Rails blog
 
-> setup and controllers
-
-![Screenshot-routes](https://user-images.githubusercontent.com/9049260/148968131-9c38233a-f0ce-491e-a002-eb533b6018f7.png)
+> Controllers specs
 
 ## Getting Started
 
@@ -12,6 +10,7 @@ To get a local copy up and running follow these simple example steps.
   - Ruby
   - Rails
   - PostgreSQL
+  - rspec-rails
 
 ## Setup
 
@@ -20,7 +19,14 @@ To get a local copy up and running follow these simple example steps.
 - Enter project directory
 ## Install
 
-bundle install
+  bundle install
+
+## Test
+
+```
+   bundle exec rspec 
+
+```
 ## Author
 
 👤 **Ntazama Willy**
