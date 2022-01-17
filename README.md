@@ -1,6 +1,6 @@
 # Ruby on Rails blog
 
-> Controllers specs
+> Processing data in models
 
 ## Getting Started
 
