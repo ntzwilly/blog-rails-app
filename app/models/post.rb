@@ -5,7 +5,7 @@ class Post < ApplicationRecord
 
   after_save :update_posts_counter
 
-  def most_recent_comments()
+  def most_recent_comments
     comments.last(5)
   end
 
