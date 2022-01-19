@@ -1,7 +1,10 @@
 # Ruby on Rails blog
 
-> Processing data in models
+> Blog app - Views
 
+![screenshot_homepage](https://user-images.githubusercontent.com/9049260/150173787-79a4b72c-c513-4747-8dc8-67fb4fbd3d1c.png)
+
+In this project, I add the Views associated with the Models and Controllers.
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -19,13 +22,29 @@ To get a local copy up and running follow these simple example steps.
 - Enter project directory
 ## Install
 
-  bundle install
-
-## Test
-
+```sh
+bundle install
 ```
-   bundle exec rspec 
 
+### Database
+
+```sh
+# Create user
+sudo -u postgres createuser blog -s
+
+# Create the database
+rake db:create
+
+# Load the schema
+rails db:schema:load
+
+## Apply migration (only if you generate a new migration file)
+rails db:migrate
+```
+### Run
+
+```sh
+rails s
 ```
 ## Author
 
