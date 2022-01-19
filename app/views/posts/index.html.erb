@@ -1,1 +1,6 @@
-<h1>This is where goes all posts</h1>
+<%= render partial: "users/user", object: @user%>
+<% @posts.each do |post| %>
+  <%= render partial: "post", object: post %>
+  <%= render partial: "shared/comment", collection: post.most_recent_comments %>
+<% end %>
+<button class="button is-small media-center">Pagination</button>
