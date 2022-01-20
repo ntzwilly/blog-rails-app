@@ -10,7 +10,7 @@ class PostsController < ApplicationController
     @comments = @post.comments.all.order('created_at')
     @liked = @post.liked? current_user.id
   end
-  
+
   def new; end
 
   def create
