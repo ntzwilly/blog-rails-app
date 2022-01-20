@@ -1,10 +1,10 @@
 # Ruby on Rails blog
 
-> Blog app - Views
+> Blog app - Add forms
 
-![screenshot_homepage](https://user-images.githubusercontent.com/9049260/150173787-79a4b72c-c513-4747-8dc8-67fb4fbd3d1c.png)
+![form](https://user-images.githubusercontent.com/9049260/150311945-b6963670-fcad-4237-ad82-0db5040dd215.png)
 
-In this project, I add the Views associated with the Models and Controllers.
+In this project, I add forms to the Blog app.
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
