@@ -1,10 +1,10 @@
 # Ruby on Rails blog
 
-> Blog app - Add forms
+> Blog app - validations, model specs, and n+1 problems
 
 ![form](https://user-images.githubusercontent.com/9049260/150311945-b6963670-fcad-4237-ad82-0db5040dd215.png)
 
-In this project, I add forms to the Blog app.
+In this project, I add validations to the models, create specs for them, and find and fix N+1 queries problems.
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
