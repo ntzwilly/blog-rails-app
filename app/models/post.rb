@@ -3,6 +3,8 @@ class Post < ApplicationRecord
   has_many :comments, dependent: :destroy
   has_many :likes, dependent: :destroy
 
+  validates :title presence: true,  length: { maximum: 250, too_long: 'Title length must not exceed 250 characters' }
+
   def most_recent_comments
     comments.last(5)
   end
