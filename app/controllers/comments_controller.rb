@@ -8,7 +8,7 @@ class CommentsController < ApplicationController
         if comment.save
           redirect_to user_post_path(post.user.id, post.id), notice: 'Comment added!'
         else
-          flash.now[:error] = 'Failed to send comment!'
+#           flash.now[:error] = 'Failed to send comment!'
           redirect_to user_post_path(post.user.id, post.id), alert: 'Failed to add comment!'
         end
       end
